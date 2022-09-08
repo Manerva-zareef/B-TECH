@@ -3,11 +3,85 @@
     background-color: white;
 }
 body{
-    background-color: lightgray;
+    background-color: rgb(236, 234, 234);
 }
 .container{
     background-color: white;
-    height: 800px;
-    margin: 2% 10% 15% 10% ;
+    height: 750px;
+    margin-top :40px;
     border-radius: 7px;
+    display: grid;
+    width: 75%;
+    grid-template-columns: 50% 50%;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.small{
+
+}
+.small img{
+    border: solid 1px grey;
+    width: 80px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+}.small{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.small img:hover{
+ border: solid 2px rgb(222, 74, 74);
+}
+.large img{
+    width: 500px;
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.botom{
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.botom img{
+  margin-left: 30px;
+}
+.second{
+    margin-left: 20px;
+    border-left: solid 1px lightgray
+    ;padding-left: 20px;
+}
+.op{
+    opacity: 0.5;
+}
+.x1{
+    display: flex;
+    justify-content: end;
+    margin-top: 22px;
+}
+.x2{
+display:flex;
+justify-content: flex-start;
+
+}
+.x21{
+    text-decoration: line-through;
+    color: rgb(168, 165, 165);
+    padding-right: 10px;
+    font-size:20px;
+}
+.x2{color: rgb(226, 6, 6);
+    font-size: 20px;
+
+}
+.price{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sym{
+    font-weight: bold;
 }
