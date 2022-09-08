@@ -1,0 +1,13 @@
+.head{
+    height: 90px;
+    background-color: white;
+}
+body{
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+    height: 800px;
+    margin: 2% 10% 15% 10% ;
+    border-radius: 7px;
+}
