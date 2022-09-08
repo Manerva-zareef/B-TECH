@@ -7,20 +7,18 @@ body{
 }
 .container{
     background-color: white;
-    height: 750px;
+    height: 700px;
     margin-top :40px;
     border-radius: 7px;
-    display: grid;
     width: 75%;
-    grid-template-columns: 50% 50%;
+    
 }
+.one{   display: grid;
+    grid-template-columns: 50% 50%;}
 .sec2{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-}
-.small{
-
 }
 .small img{
     border: solid 1px grey;
@@ -130,4 +128,23 @@ color: white;
 .nn{
     display: flex;
     justify-content: space-between;
+}
+.last1{
+    border: solid 1px lightgray;
+    height: 60px;
+    border-radius: 9px;
+    font-size: small;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.last1 img{padding-left: 0%;}
+
+.container.two{
+    background-color: white;
+    height: 900px;
+    margin-top :10px;
+    border-radius: 7px;
+    width: 75%;
+    
+    
 }
