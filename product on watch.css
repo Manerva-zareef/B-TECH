@@ -85,3 +85,49 @@ justify-content: flex-start;
 .sym{
     font-weight: bold;
 }
+.ptn1{
+    width:95%;
+    height: 60px;
+    margin-top: 15px;
+}
+.d{
+    border-radius: 9px;
+}
+.d:hover{
+    background-color: black;
+color: white;
+}
+.buy{
+    background-color: rgb(153, 46, 252);
+    color: white;
+    border-radius: 9px;
+    border: none;
+}
+.del{
+    font-weight: bold;
+    padding-top: 30px;
+}
+.del a{
+    text-decoration: none;
+
+}
+.x3{
+    padding-top: 18px;
+}
+.c{
+    color: rgb(12, 129, 12);
+    font-weight: bold;
+    font-size: 16px;
+}
+.m{
+    font-weight: bold;
+
+}.x4 a{
+    padding-top: 0%;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.nn{
+    display: flex;
+    justify-content: space-between;
+}
