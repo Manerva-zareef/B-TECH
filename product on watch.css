@@ -216,3 +216,42 @@ color: white;
     margin-left: 40%;
     width: 300px;
 }
+.container.three{
+    background-color: white;
+    height: 500px;
+    margin-top :10px;
+    border-radius: 7px;
+    width: 75%;
+    
+    
+}
+.part31{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+.t{padding-top: 20px;}
+.grid11{
+    border-right: solid 1px rgb(184, 182, 182);
+    padding-left: 15px;
+}
+#hh{
+    width: 150px;
+}
+#non{
+    border:none;
+    width: 105%;
+}
+.yy{
+    color: red;
+}
+#r{
+    width: 110px;
+}
+#h{
+    width: 170px;
+}
+.add{
+    width: 90%;
+}
+#t{width: 58%;}
