@@ -1,0 +1,258 @@
+.head{
+    height: 90px;
+    background-color: white;
+}
+body{
+    background-color: rgb(236, 234, 234);
+}
+.container{
+    background-color: white;
+    height: 700px;
+    margin-top :40px;
+    border-radius: 7px;
+    width: 75%;
+    
+}
+.one{   display: grid;
+    grid-template-columns: 50% 50%;}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.small img{
+    border: solid 1px grey;
+    width: 60px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+}.small{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.small img:hover{
+ border: solid 2px rgb(222, 74, 74);
+}
+.large img{
+    width: 500px;
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.botom{
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.botom img{
+  margin-left: 30px;
+}
+.second{
+    margin-left: 20px;
+    border-left: solid 1px lightgray
+    ;padding-left: 20px;
+}
+.op{
+    opacity: 0.5;
+}
+.x1{
+    display: flex;
+    justify-content: end;
+    margin-top: 22px;
+}
+.x2{
+display:flex;
+justify-content: flex-start;
+
+}
+.x21{
+    text-decoration: line-through;
+    color: rgb(168, 165, 165);
+    padding-right: 10px;
+    font-size:20px;
+}
+.x2{color: rgb(226, 6, 6);
+    font-size: 20px;
+
+}
+.price{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sym{
+    font-weight: bold;
+}
+.ptn1{
+    width:95%;
+    height: 60px;
+    margin-top: 15px;
+}
+.d{
+    border-radius: 9px;
+}
+.d:hover{
+    background-color: black;
+color: white;
+}
+.buy{
+    background-color: rgb(153, 46, 252);
+    color: white;
+    border-radius: 9px;
+    border: none;
+}
+.del{
+    font-weight: bold;
+    padding-top: 30px;
+}
+.del a{
+    text-decoration: none;
+
+}
+.x3{
+    padding-top: 18px;
+}
+.c{
+    color: rgb(12, 129, 12);
+    font-weight: bold;
+    font-size: 16px;
+}
+.m{
+    font-weight: bold;
+
+}.x4 a{
+    padding-top: 0%;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.nn{
+    display: flex;
+    justify-content: space-between;
+}
+.last1{
+    border: solid 1px lightgray;
+    height: 60px;
+    border-radius: 9px;
+    font-size: small;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.last1 img{padding-left: 0%;}
+
+.container.two{
+    background-color: white;
+    height: 1830px;
+    margin-top :10px;
+    border-radius: 7px;
+    width: 75%;
+    
+    
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.prod{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sem{
+    font-size: 18px;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+   
+}
+#U{
+    padding-left: 6%;
+    font-size: 15px;
+}
+.part3{
+  display: grid;
+  grid-template-columns: 30% 70%;  
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.brand{
+    font-weight: bold;
+}
+.part4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+}
+.ex{   padding-left: 20px;}
+.grid2{
+    border: solid 1px lightgray;
+    height: 597px;
+ 
+
+}
+.add{
+    width: 250px;
+    height: 40px;
+    border-radius: 9px;
+    /* margin-top: 30px; */
+    border: solid 1px rgb(94, 178, 20);;
+    color: green;
+    font-weight: bold;
+ background-color: white;
+}
+.add:hover{
+    background-color: rgb(94, 178, 20);
+    color: white;
+}.exx{
+    height: 236px;
+}
+.imgr{
+    padding-top: 2px;
+}.zero{
+    background-color: rgb(252, 229, 229);
+}
+#boot{
+    margin-left: 40%;
+    width: 300px;
+    margin-top: 10px;
+}
+.container.three{
+    background-color: white;
+    height: 500px;
+    margin-top :10px;
+    border-radius: 7px;
+    width: 75%;
+    
+    
+}
+.part31{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+.t{padding-top: 20px;}
+.grid11{
+    border-right: solid 1px rgb(184, 182, 182);
+    padding-left: 15px;
+}
+#hh{
+    width: 90%;
+}
+#non{
+    border:none;
+    width: 55%;
+}
+.yy{
+    color: red;
+}
+#r{
+    width: 135px;
+}
+#h{
+    width: 160px;
+}
+.add{
+    width: 90%;
+}
+#t{width: 58%;}
