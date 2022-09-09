@@ -21,9 +21,9 @@
         <div class="flex">
             <div class="flex">
                 <div class="p-4"><img src="https://media.btech.com/media/wysiwyg/logo-b.png"></div>
-                <div class="p-4">sell <i class="fa-solid fa-angle-down"></i></div>
-                <div class="p-4">benrfits <i class="fa-solid fa-angle-down"></i></div>
-                <div class="p-4">fees & pricing <i class="fa-solid fa-angle-down"></i></div>
+                <div class="p-4" onclick="foc1()">sell <i class="fa-solid fa-angle-down"></i></div>
+                <div class="p-4" onclick="foc2()">benifits <i class="fa-solid fa-angle-down"></i></div>
+                <div class="p-4" onclick="foc3()">fees & pricing <i class="fa-solid fa-angle-down"></i></div>
                 
             </div>
             <div class="p-4"><button class="btn btn-primary" type="submit">Sign in</button></div>
@@ -34,20 +34,81 @@
     <div class="bg-primary p-5">
         <h1 class="font-weight-bold text-white">Sell on the largest online<br> marketplace for<br> electronics</h1>
         <div style="padding-top: 30px">
-        <span class="p-4"><button class="btn btn-light" style="color: black" type="submit">Sign in</button></span>
+        <span class="p-4"><button class="btn btn-light" style="color: black" type="submit">Become a seller</button></span>
         <span class="p-4"><button class="btn" style="background-color: rgb(83, 83, 241);" type="submit">Sign in</button></span>
     </div>
     </div>
 
 
-    <div style="padding-top: 100px;padding-bottom: 100px;" class="d-flex justify-content-center">
+    <div style="padding-top: 100px;padding-bottom: 100px;" class="d-flex justify-content-center" id="sell">
         <h1 class="font-weight-bold">Become a seller and list your products to<br>
             <span style="color: orange;">180,000+ customers</span> a day in 3 easy steps.</h1></div>
 
 
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="https://media.btech.com/media/wysiwyg/thumb-1.png">
+                        <img src="https://media.btech.com/media/wysiwyg/1.png" style="margin-left: 150px;">
+                        <h4>Registration</h4>
+                        <p>Add your store name and info</p>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="https://media.btech.com/media/wysiwyg/thumb-2.png">
+                        <img src="https://media.btech.com/media/wysiwyg/2.png" style="margin-left: 150px;">
+                        <h4>Documents</h4>
+                        <p>Submit your tax ID, trade license, and VAT registration certificate</p>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="https://media.btech.com/media/wysiwyg/thumb-3.png">
+                        <img src="https://media.btech.com/media/wysiwyg/3.png" style="margin-left: 150px;">
+                        <h4>Approval</h4>
+                        <p>Allow us 2 business days until we review your info and uploads.</p>
+                    </div>
+                </div>
+
+            </div>
 
 
+
+<div class="text-center" style="margin-top: 150px;margin-bottom:100px;" id="benefit">
+    <h2 class="font-weight-bold" style="color: rgb(0, 0, 158);">Seller Benefits</h2>
+<p>Become a B.TECH seller and enjoy a diverse range of<br> benefits for you and your customers</p></div>
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-12 bg-white px-1 py-4">
+            <img src="https://media.btech.com/media/wysiwyg/seller-thumb-1.png">
+            <h4>Earn on the go</h4>
+            <p>Access your inventory and moniter your sales from anywhere. Provide a wide range of products for your customers to choose from.</p>
+</div>
+            <div class="col-lg-4 col-sm-12 bg-white px-1 py-4">
+                <img src="https://media.btech.com/media/wysiwyg/seller-thumb-2.png">
+                <h4>Loyalty and installments</h4>
+                <p>You customers can choose their payment plan with Minicash and enjoy a loyalty program with My B.TECH for a better shopping experience.</p>
+</div>
+                <div class="col-lg-4 col-sm-12 bg-white px-1 py-4">
+                    <img src="https://media.btech.com/media/wysiwyg/seller-thumb-3.png">
+                    <h4>Understand customers</h4>
+                    <p>Leave customer issues to us and focus on your brand and understanding your customers through analytics and reports.</p>
+      </div>  </div>
+    </div>
+
+
+
+    <div style="background-color: blue;margin-top: 100px;color:white ;" class="text-center py-5" id="fees">
+        <h2>Fees & Pricing</h2>
+        <p>In the context of download the pdf to know more<br> information on our pricing</p>
+        <button class="btn btn-light" style="color: black" type="submit">Download</button>
+    </div>
 
 
 
@@ -76,6 +137,12 @@
 
 <script src="https://kit.fontawesome.com/1b72b8e89a.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function foc1(){document.getElementById('sell').focus();window.location.hash = '#sell';}
+    function foc2(){document.getElementById('benefit').focus();window.location.hash = '#benefit';}
+    function foc3(){document.getElementById('fees').focus();window.location.hash = '#fees';}
+   
+</script>
 
 </body>
 </html>
