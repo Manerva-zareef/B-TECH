@@ -48,10 +48,17 @@ let generateCartItems = () => {
     label.innerHTML = `
     <div class="tex">
     <h2>Cart is Empty</h2>
-    <a href="index.html">
+    <h5 class="text-muted">B.TECH is the #1 place for all your needs, explore our wide range of products, flexible payments & offers!</h5>
+    <a href="homepage-maneva.html">
       <button class="HomeBtn">Back to home</button>
     </a></div>
     `;
+    // ShoppingCart.innerHTML =`
+    // <div class="tex">
+    // <h2>Cart is Empty</h2>
+    // <a href="homepage-maneva.html">
+    // <button class="HomeBtn">Back to home</button>
+    // </a></div>`;
   }
 };
 
