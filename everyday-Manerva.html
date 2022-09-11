@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./t.css">
+    <style>.linky{text-decoration: none;color: black;}
+    .linky:hover{color:black;}
+    .prode{background-color: white;border-radius:5px;padding:5px;margin:10px;}
+    .cartAmount{color: white;background-color: green;border:1px solid green;width: 15px;height: 15px;border-radius: 50%;
+    position: absolute;top:-8px;right:inherit;font-size: 10px;}
+    .cart{position: relative;}
+    .heade{display: flex;flex-direction: row;justify-content: space-between;padding: 10px 150px;}
+    @media (max-width: 2000px) {
+        .wid {margin-left: 150px;margin-right: 150px;}
+    }
+    @media (max-width: 500px) {
+        .wid {margin-left:0px;margin-right:0px;}
+    }
+    .hov:hover{background-color: rgb(194, 194, 194);border: 1px solid rgb(194, 194, 194);border-radius: 6px;}
+ .hot{color: white;background-color: rgb(95, 95, 240);padding:5px;}
+ 
+    </style>
+</head>
+<body style="background-color:#f4f5f6 ;">
+    <div class="sticky-top">
+    <header style="background-color: black;color: white;" class="d-none d-lg-block">
+        <!-- <div style="margin-left: 150px;margin-right: 150px;" -->
+        <!-- class="d-flex justify-content-between p-2"> -->
+        <div class="heade">
+        <div>
+            <span class="me-3"><a href="#" style="text-decoration: none;color: white;">عربي</a></span>
+
+            <span class="me-3" style="color: gray;">my delivery area</span>
+            <span class="me-3">Cairo</span>
+
+        </div>
+<div class="d-flex justify-content-between">
+    <span class="me-4"><a href="#" style="text-decoration: none;color: white;">sell on B.TECH</a></span> 
+    <span class="me-4"><a href="#" style="text-decoration: none;color: white;">Blog</a></span>
+    <a href="#" style="text-decoration: none;color: white;">
+        <div><span><i class="fa-solid fa-phone"></i></span>
+            <span>call 19966</span></div>
+    </a>
+    
+    
+</div>
+        </div>
+    </header>
+
+
+    <div class="bg-white" style="border-bottom: 1px solid rgb(220, 218, 218);">
+    <nav class="navbar navbar-expand-lg" style="margin-left: 150px;margin-right: 150px;padding: 20px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="homepage-manerva.html">
+            <img src="https://media.btech.com/media/logo/stores/1/new3.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+            
+              <li class="nav-item dropdown hov">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">mobiles & tablet</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">TVs</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Personal Care</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Small Home Appliances</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sports</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Large Home Appliances</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">laptops & pcs</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Electronics</a></li>
+                
+                  
+                </ul>
+              </li>
+              
+              <li class="nav-item hov">
+                <a class="nav-link active text-danger" aria-current="page" href="#">
+                    <span class="font-weight-bold">Everyday Deals</span>
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex">
+            <form  role="search" style="width: 500px;">
+              <input style="height: 50px;" class="form-control me-2 bg-light"
+               type="search" placeholder="Search for products or brands " aria-label="Search"></form>
+               <div class="d-flex align-item-center mt-2">
+               <a href="#" class="linky ps-5"><i class="fa-regular fa-user"></i>
+            <span>my account</span></a>
+            
+            <a href="cart.html">
+            <div class="linky ps-5 cart"><i class="bi bi-cart2" style="width: 30px;"></i>
+                <div class="cartAmount text-center"
+                id="cartAmount" >0</div>
+                <span>cart</span></div></a>
+            </div>
+    
+           
+              
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+</div>
+</div>
+
+
+<div class="wid">
+
+<div class="mt-5"><a href="#"><img src="https://media.btech.com/media/amasty/ampromobanners/banner_450_BigSale_Reveal_Generic__WEB-Banner__2368x800_EN.png"
+    style="width: 100%"></a></div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3 p-3">
+               <div class="d-flex justify-content-between">
+                <h5>Special Filters</h5>
+                <i class="bi bi-dash"></i>
+               </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    
+with minicash <span class="text-muted">(792)</span>
+                    </label> </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    pay over 48 months    <span class="text-muted">(313)</span>
+
+                    </label> </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            zero down payment<span class="text-muted">(748)</span>
+    
+                        </label> </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                             onsale   <span class="text-muted">(10)</span>
+        
+                            </label> </div>
+
+
+
+                            <div class="d-flex justify-content-between">
+                                <h5>Categories</h5>
+                                <i class="bi bi-dash"></i>
+                               </div>
+                               <input type="search" placeholder="Search categories" style="width: 100%;border-radius: 6px;
+                               padding: 5px;">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    
+                mobiles <span class="text-muted">(792)</span>
+                                    </label> </div>
+                
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    TVs   <span class="text-muted">(313)</span>
+                
+                                    </label> </div>
+                
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Air conditioners<span class="text-muted">(748)</span>
+                    
+                                        </label> </div>
+                
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                             Dishwashers  <span class="text-muted">(10)</span>
+                        
+                                            </label> </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                 Iron  <span class="text-muted">(1)</span>
+                            
+                                                </label> </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                     monitor  <span class="text-muted">(15)</span>
+                                
+                                                    </label> </div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                        Fans  <span class="text-muted">(10)</span>
+                                    
+                                                        </label> </div>
+
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                             shaving  <span class="text-muted">(13)</span>
+                                        
+                                                            </label> </div>
+
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                 Home  <span class="text-muted">(17)</span>
+                                            
+                                                                </label> </div>
+                
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                     Tablets  <span class="text-muted">(19)</span>
+                                                
+                                                                    </label> </div>
+                
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                         Dishwashers  <span class="text-muted">(10)</span>
+                                                    
+                                                                        </label> </div>
+                
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                             computer  <span class="text-muted">(100)</span>
+                                                        
+                                                                            </label> </div>
+                
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                 Apple <span class="text-muted">(145)</span>
+                                                            
+                                                                                </label> </div>
+                
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                                     Midea  <span class="text-muted">(1056)</span>
+                                                                
+                                                                                    </label> </div>
+                
+                                                                                    <div class="form-check">
+                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                         sharp  <span class="text-muted">(176)</span>
+                                                                    
+                                                                                        </label> </div>
+                                        
+                                                                                        <div class="form-check">
+                                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                             Samsung  <span class="text-muted">(1570)</span>
+                                                                        
+                                                                                            </label> </div>
+                
+                                                                                            <div class="form-check">
+                                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                                 Sony <span class="text-muted">(89)</span>
+                                                                            
+                                                                                                </label> </div>
+
+                                                
+
+
+
+
+                                                                                                <!-- <div class="d-flex justify-content-between">
+                                                                                                    <h5>Special Filters</h5>
+                                                                                                    <i class="bi bi-dash"></i>
+                                                                                                   </div> -->
+                                                                                                      <div class="form-check">
+                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                        
+                                                                                    with minicash <span class="text-muted">(792)</span>
+                                                                                                        </label> </div>
+                                                                                    
+                                                                                                      <div class="form-check">
+                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                        pay over 48 months    <span class="text-muted">(313)</span>
+                                                                                    
+                                                                                                        </label> </div>
+                                                                                    
+                                                                                                        <div class="form-check">
+                                                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                zero down payment<span class="text-muted">(748)</span>
+                                                                                        
+                                                                                                            </label> </div>
+                                                                                    
+                                                                                                            <div class="form-check">
+                                                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                 onsale   <span class="text-muted">(10)</span>
+                                                                                            
+                                                                                                                </label> </div>
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                                                <div class="d-flex justify-content-between">
+                                                                                                                    <h5>Brand</h5>
+                                                                                                                    <i class="bi bi-dash"></i>
+                                                                                                                   </div>
+                                                                                                                   <input type="search" placeholder="Search categories" style="width: 100%;border-radius: 6px;
+                                                                                                                   padding: 5px;">
+                                                                                                                      <div class="form-check">
+                                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                        
+                                                                                                    mobiles <span class="text-muted">(792)</span>
+                                                                                                                        </label> </div>
+                                                                                                    
+                                                                                                                      <div class="form-check">
+                                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                        TVs   <span class="text-muted">(313)</span>
+                                                                                                    
+                                                                                                                        </label> </div>
+                                                                                                    
+                                                                                                                        <div class="form-check">
+                                                                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                Air conditioners<span class="text-muted">(748)</span>
+                                                                                                        
+                                                                                                                            </label> </div>
+                                                                                                    
+                                                                                                                            <div class="form-check">
+                                                                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                 Dishwashers  <span class="text-muted">(10)</span>
+                                                                                                            
+                                                                                                                                </label> </div>
+                                                                                    
+                                                                                                                                <div class="form-check">
+                                                                                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                     Iron  <span class="text-muted">(1)</span>
+                                                                                                                
+                                                                                                                                    </label> </div>
+                                                                                    
+                                                                                                                                    <div class="form-check">
+                                                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                         monitor  <span class="text-muted">(15)</span>
+                                                                                                                    
+                                                                                                                                        </label> </div>
+                                                                                    
+                                                                                                                                        <div class="form-check">
+                                                                                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                            Fans  <span class="text-muted">(10)</span>
+                                                                                                                        
+                                                                                                                                            </label> </div>
+                                                                                    
+                                                                                                                                            <div class="form-check">
+                                                                                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                 shaving  <span class="text-muted">(13)</span>
+                                                                                                                            
+                                                                                                                                                </label> </div>
+                                                                                    
+                                                                                                                                                <div class="form-check">
+                                                                                                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                     Home  <span class="text-muted">(17)</span>
+                                                                                                                                
+                                                                                                                                                    </label> </div>
+                                                                                                    
+                                                                                                                                                    <div class="form-check">
+                                                                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                         Tablets  <span class="text-muted">(19)</span>
+                                                                                                                                    
+                                                                                                                                                        </label> </div>
+                                                                                                    
+                                                                                                                                                        <div class="form-check">
+                                                                                                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                             Dishwashers  <span class="text-muted">(10)</span>
+                                                                                                                                        
+                                                                                                                                                            </label> </div>
+                                                                                                    
+                                                                                                                                                            <div class="form-check">
+                                                                                                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                                 computer  <span class="text-muted">(100)</span>
+                                                                                                                                            
+                                                                                                                                                                </label> </div>
+                                                                                                    
+                                                                                                                                                                <div class="form-check">
+                                                                                                                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                                     Apple <span class="text-muted">(145)</span>
+                                                                                                                                                
+                                                                                                                                                                    </label> </div>
+                                                                                                    
+                                                                                                                                                                    <div class="form-check">
+                                                                                                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                                         Midea  <span class="text-muted">(1056)</span>
+                                                                                                                                                    
+                                                                                                                                                                        </label> </div>
+                                                                                                    
+                                                                                                                                                                        <div class="form-check">
+                                                                                                                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                                             sharp  <span class="text-muted">(176)</span>
+                                                                                                                                                        
+                                                                                                                                                                            </label> </div>
+                                                                                                                            
+                                                                                                                                                                            <div class="form-check">
+                                                                                                                                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                                                 Samsung  <span class="text-muted">(1570)</span>
+                                                                                                                                                            
+                                                                                                                                                                                </label> </div>
+                                                                                                    
+                                                                                                                                                                                <div class="form-check">
+                                                                                                                                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                                                                                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                                                                                                                                     Sony <span class="text-muted">(89)</span>
+                                                                                                                                                                
+                                                                                                                                                                                    </label> </div>
+                                                                                    
+                                                                                                                                    
+
+
+
+
+
+
+
+                 
+            </div>
+            <div class="col-9 p-4 bg-white">
+                <div>
+                    <div class="d-flex justify-content-start"><h5>ON SALE</h5>
+                        <div style="background-color: rgb(200, 197, 197);border: 1px solid rgb(155, 155, 155);
+                        ;padding: 5px;margin-left: 20px;"
+                        >790</div>
+                    </div></div>
+                    <hr>
+                    <div> sort by: <a href="#" style="text-decoration: none;">
+                        Position <i class="bi bi-chevron-down"></i></a></div>
+                <hr>   
+
+
+
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+<div class="d-flex justify-content-between">
+    <div class="hot rounded-pill">Hot offers</div>
+    <div class="hot rounded-circle p-1 text-center bg-white"
+    style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" id="bt"
+    style="color: blue;"
+    onclick="colo()"></i></div>
+</div>
+<img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/0/0/001-65uq75006lg_1.jpg"
+><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+width: 60px;">200LE<br>coupon</div>
+<p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+<h4 class="pt-2">7,999LE</h4>
+<p>or from 374 LE/mo</p>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+                            <div class="d-flex justify-content-between">
+                                <div class="hot rounded-pill">Hot offers</div>
+                                <div class="hot rounded-circle p-1 text-center bg-white"
+                                style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                onclick="colo()"></i></div>
+                            </div>
+                            <img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/a/c/ac_midea_12_moct12cr-ac_midea_18_moct18cr-ac_midea_24_moct24cr_oqldmopqcacfrbmz.png"
+                            ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                            width: 60px;">200LE<br>coupon</div>
+                            <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                            <h4 class="pt-2">7,999LE</h4>
+                            <p>or from 374 LE/mo</p>
+                            
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-12 p-3"  style="border-bottom: 1px solid rgb(200, 197, 197);">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="hot rounded-pill">Hot offers</div>
+                                                            <div class="hot rounded-circle p-1 text-center bg-white"
+                                                            style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                                            onclick="colo()"></i></div>
+                                                        </div><div class="d-flex justify-content-center">
+                                                        <img height="150px"
+                                                         src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/z/-/z-01_f4r5vyg2t.jpg"
+                                                        ></div><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                                                        width: 60px;">345LE<br>coupon</div>
+                                                        <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                                                        <h4 class="pt-2">657LE</h4>
+                                                        <p>or from 374 LE/mo</p>
+                                                        
+                                                                                </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+<div class="d-flex justify-content-between">
+    <div class="hot rounded-pill">Hot offers</div>
+    <div class="hot rounded-circle p-1 text-center bg-white"
+    style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+    onclick="colo()"></i></div>
+</div>
+<img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/x/i/xiaomi-mi-box-s-black_3.jpg"
+><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+width: 60px;">7856LE<br>coupon</div>
+<p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+<h4 class="pt-2">8,999LE</h4>
+<p>or from 374 LE/mo</p>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+                            <div class="d-flex justify-content-between">
+                                <div class="hot rounded-pill">Hot offers</div>
+                                <div class="hot rounded-circle p-1 text-center bg-white"
+                                style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                onclick="colo()"></i></div>
+                            </div>
+                            <img height="200px"
+                             src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/a/c/acpcprmi012-cv50-xbruvln_jfwgtbbcii7yzq7l_znahc6fcgywk9xut.png"
+                            ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                            width: 60px;">4657LE<br>coupon</div>
+                            <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                            <h4 class="pt-2">47932LE</h4>
+                            <p>or from 374 LE/mo</p>
+                            
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-12 p-3"  style="border-bottom: 1px solid rgb(200, 197, 197);">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="hot rounded-pill">Hot offers</div>
+                                                            <div class="hot rounded-circle p-1 text-center bg-white"
+                                                            style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                                            onclick="colo()"></i></div>
+                                                        </div>
+                                                        <img height="200px" width="300px"
+                                                        src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/s/f/sfw__ttkqiyjwlrou9olk.png"
+                                                        ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                                                        width: 60px;">200LE<br>coupon</div>
+                                                        <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                                                        <h4 class="pt-2">500LE</h4>
+                                                        <p>or from 374 LE/mo</p>
+                                                        
+                                                                                </div>
+                    </div>
+
+                </div>
+
+
+                
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+<div class="d-flex justify-content-between">
+    <div class="hot rounded-pill">Hot offers</div>
+    <div class="hot rounded-circle p-1 text-center bg-white"
+    style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+    onclick="colo()"></i></div>
+</div>
+<img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/3/j/3j5a7698_copy_copy.jpg"
+><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+width: 60px;">234LE<br>coupon</div>
+<p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+<h4 class="pt-2">896LE</h4>
+<p>or from 374 LE/mo</p>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+                            <div class="d-flex justify-content-between">
+                                <div class="hot rounded-pill">Hot offers</div>
+                                <div class="hot rounded-circle p-1 text-center bg-white"
+                                style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                onclick="colo()"></i></div>
+                            </div>
+                            <img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/p/d/pdp-shelf-all-in-one-trimmer-7-mgk7221.jpg"
+                            ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                            width: 60px;">200LE<br>coupon</div>
+                            <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                            <h4 class="pt-2">7,999LE</h4>
+                            <p>or from 374 LE/mo</p>
+                            
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-12 p-3"  style="border-bottom: 1px solid rgb(200, 197, 197);">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="hot rounded-pill">Hot offers</div>
+                                                            <div class="hot rounded-circle p-1 text-center bg-white"
+                                                            style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                                            onclick="colo()"></i></div>
+                                                        </div>
+                                                        <img height="170px"
+                                                        src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/f/r/fresh_wall_fan_with_remote_control_16_inch_-_grey_1_.jpg"
+                                                        ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                                                        width: 60px;">200LE<br>coupon</div>
+                                                        <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                                                        <h4 class="pt-2">7,999LE</h4>
+                                                        <p>or from 374 LE/mo</p>
+                                                        
+                                                                                </div>
+                    </div>
+
+                </div>
+
+
+
+                
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+<div class="d-flex justify-content-between">
+    <div class="hot rounded-pill">Hot offers</div>
+    <div class="hot rounded-circle p-1 text-center bg-white"
+    style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+    onclick="colo()"></i></div>
+</div>
+<img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/s/i/silk-epil9-1.jpg"
+><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+width: 60px;">200LE<br>coupon</div>
+<p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+<h4 class="pt-2">7,999LE</h4>
+<p>or from 374 LE/mo</p>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+                            <div class="d-flex justify-content-between">
+                                <div class="hot rounded-pill">Hot offers</div>
+                                <div class="hot rounded-circle p-1 text-center bg-white"
+                                style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                onclick="colo()"></i></div>
+                            </div>
+                            <img height="250px"
+                            src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/f/i/file_24.jpg"
+                            ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                            width: 60px;">200LE<br>coupon</div>
+                            <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                            <h4 class="pt-2">7,999LE</h4>
+                            <p>or from 374 LE/mo</p>
+                            
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-12 p-3"  style="border-bottom: 1px solid rgb(200, 197, 197);">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="hot rounded-pill">Hot offers</div>
+                                                            <div class="hot rounded-circle p-1 text-center bg-white"
+                                                            style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                                            onclick="colo()"></i></div>
+                                                        </div>
+                                                        <img height="250px"
+                                                        src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/f/r/fresh_gas_water_heater_10_liter_silver_-_pro_10l_silver_2_.jpg"
+                                                        ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                                                        width: 60px;">200LE<br>coupon</div>
+                                                        <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                                                        <h4 class="pt-2">7,999LE</h4>
+                                                        <p>or from 374 LE/mo</p>
+                                                        
+                                                                                </div>
+                    </div>
+
+                </div>
+
+
+                
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+<div class="d-flex justify-content-between">
+    <div class="hot rounded-pill">Hot offers</div>
+    <div class="hot rounded-circle p-1 text-center bg-white"
+    style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+    onclick="colo()"></i></div>
+</div>
+<img height="200px"
+src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/1/_/1_23.jpg"
+><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+width: 60px;">200LE<br>coupon</div>
+<p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+<h4 class="pt-2">7,999LE</h4>
+<p>or from 374 LE/mo</p>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+                            <div class="d-flex justify-content-between">
+                                <div class="hot rounded-pill">Hot offers</div>
+                                <div class="hot rounded-circle p-1 text-center bg-white"
+                                style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                onclick="colo()"></i></div>
+                            </div>
+                            <img src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/v/a/vaio_e15_laptop_1.jpg"
+                            ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                            width: 60px;">200LE<br>coupon</div>
+                            <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                            <h4 class="pt-2">7,999LE</h4>
+                            <p>or from 374 LE/mo</p>
+                            
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-12 p-3"  style="border-bottom: 1px solid rgb(200, 197, 197);">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="hot rounded-pill">Hot offers</div>
+                                                            <div class="hot rounded-circle p-1 text-center bg-white"
+                                                            style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                                            onclick="colo()"></i></div>
+                                                        </div>
+                                                        <img height="200px"
+                                                        src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/w/t/wtv_8612_xmc.png"
+                                                        ><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                                                        width: 60px;">200LE<br>coupon</div>
+                                                        <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                                                        <h4 class="pt-2">7,999LE</h4>
+                                                        <p>or from 374 LE/mo</p>
+                                                        
+                                                                                </div>
+                    </div>
+
+                </div>
+
+
+                
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+<div class="d-flex justify-content-between">
+    <div class="hot rounded-pill">Hot offers</div>
+    <div class="hot rounded-circle p-1 text-center bg-white"
+    style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+    onclick="colo()"></i></div>
+</div>
+<img height="200px"
+src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/a/p/apple-iphone-13-pro-128gb-5g-graphite.jpg"
+><div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+width: 60px;">200LE<br>coupon</div>
+<p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+<h4 class="pt-2">7,999LE</h4>
+<p>or from 374 LE/mo</p>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-12 p-3" style="border-right: 1px solid rgb(200, 197, 197);border-bottom: 1px solid rgb(200, 197, 197);">
+                            <div class="d-flex justify-content-between">
+                                <div class="hot rounded-pill">Hot offers</div>
+                                <div class="hot rounded-circle p-1 text-center bg-white"
+                                style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                onclick="colo()"></i></div>
+                            </div>
+                            <div>
+                                <img height="200px"
+                                src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/a/p/apple-iphone-13-pro-128gb-5g-sierra-blue.jpg"
+                            
+                             ></div>
+                           <div style="background-color: red; color: white;border-radius: 3px;padding: 4px;
+                            width: 60px;">200LE<br>coupon</div>
+                            <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                            <h4 class="pt-2">7,999LE</h4>
+                            <p>or from 374 LE/mo</p>
+                            
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-12 p-3"  style="border-bottom: 1px solid rgb(200, 197, 197);">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="hot rounded-pill">Hot offers</div>
+                                                            <div class="hot rounded-circle p-1 text-center bg-white"
+                                                            style="border: 1px solid rgb(200, 197, 197);"><i class="bi bi-heart" style="color: blue;"
+                                                            onclick="colo()"></i></div>
+                                                        </div><div    class="d-flex justify-content-center" style="height: 150px;" >
+                                                        <img height="200px"
+                                                         src="https://media.btech.com/media/catalog/product/cache/472383e37f6cd95ca4a09ee1de419173/a/p/apple-iphone-13-pro-128gb-5g-graphite.jpg"
+                                                    
+                                                     ></div>
+                                                      <div style="background-color: red; color: white;border-radius: 3px;padding: 4px;margin-top: 50px;
+                                                        width: 60px;">200LE<br>coupon</div>
+                                                        <p class="pt-1">LG 50 Inch 4K UHD Smart LED TV with Built in Receiver...</p>
+                                                        <h4 class="pt-2">7,999LE</h4>
+                                                        <p>or from 374 LE/mo</p>
+                                                        
+                                                                                </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+<script>
+const btn = document.getElementById('bt');
+
+btn.addEventListener('click', function onClick(event) {
+  // 👇️ change background color
+  document.getElementById('bt').style.backgroundColor = 'blue';
+
+  // 👇️ optionally change text color
+  // document.body.style.color = 'white';
+});
+
+</script>
+<script src="./data.js"></script>
+<script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/1b72b8e89a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
