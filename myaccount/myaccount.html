@@ -36,9 +36,9 @@ body{background-color: white;}
 #two{margin-left: 90px;}
 .three{margin-left: 40px;}
 .d{margin-left: 30px;
-color: red;}
+color: rgb(21, 18, 18);}
 .input{
-    border: solid 1px red;
+    border: solid 1px rgb(0, 0, 0);
     width: 350px;
     height: 50px;
     border-radius: 9px;
@@ -71,7 +71,7 @@ color: red;}
     <div class="bg-white" style="border-bottom: 1px solid rgb(220, 218, 218);">
         <nav class="navbar navbar-expand-lg" style="margin-left: 150px;margin-right: 150px;padding: 20px;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="homepage-manerva.html">
+              <a class="navbar-brand" href="../homepage-maneva.html">
                 <img  id="e" src="https://media.btech.com/media/logo/stores/1/new3.png" alt="">
               </a>
             
@@ -90,9 +90,10 @@ color: red;}
         <h4 id="two">Let’s get started!</h4>
         <div class="three"><p>Use your mobile number to sign in or sign up</p></div>
         <input class="d input" type="tel" value="+021">
-        <p class="d">required</p>
-        <button type="button" class="btn btn-outline-secondary">continue</button><br><br>
-        <div><a href="#"  class="four">or Log in with email</a></div><br>
+        <p class="d" style="color: red;">required</p>
+        <button type="button" class="btn btn-outline-secondary" id="li"><a href="./myaccount2.html">continue</a></button>
+        <br><br>
+        <div><a href="./myaccount2.html"  class="four">or Log in with email</a></div><br>
         <div class="last">
             <span> By continuing, you agree to our</span>
             <span><a href="#"> Privacy Policy</a> </span>
@@ -106,6 +107,10 @@ color: red;}
        <script src="./myaccount.js">
       
 
+       </script>
+       <script>
+        let press= document.getElementById("li");
+        press.onclick=function test (){open("./myaccount2.html")}
        </script>
     </body>
     
