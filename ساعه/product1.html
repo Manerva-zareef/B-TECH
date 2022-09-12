@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./product on watch.css">
+    <style>.head{
+        height: 90px;
+        background-color: white;
+    }
+    body{
+        background-color: rgb(236, 234, 234);
+    }
+    .container{
+        background-color: white;
+        height: 700px;
+        margin-top :40px;
+        border-radius: 7px;
+        width: 75%;
+        
+    }
+    .one{   display: grid;
+        grid-template-columns: 50% 50%;}
+    .sec2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .small img{
+        border: solid 1px grey;
+        width: 80px;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 10px;
+    }.small{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .small img:hover{
+     border: solid 2px rgb(222, 74, 74);
+    }
+    .large img{
+        width: 500px;
+        height: 450px;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+    .botom{
+        display: flex;
+        justify-content:center;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .botom img{
+      margin-left: 30px;
+    }
+    .second{
+        margin-left: 20px;
+        border-left: solid 1px lightgray
+        ;padding-left: 20px;
+    }
+    .op{
+        opacity: 0.5;
+    }
+    .x1{
+        display: flex;
+        justify-content: end;
+        margin-top: 22px;
+    }
+    .x2{
+    display:flex;
+    justify-content: flex-start;
+    
+    }
+    .x21{
+        text-decoration: line-through;
+        color: rgb(168, 165, 165);
+        padding-right: 10px;
+        font-size:20px;
+    }
+    .x2{color: rgb(226, 6, 6);
+        font-size: 20px;
+    
+    }
+    .price{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .sym{
+        font-weight: bold;
+    }
+    .ptn1{
+        width:95%;
+        height: 60px;
+        margin-top: 15px;
+    }
+    .d{
+        border-radius: 9px;
+    }
+    .d:hover{
+        background-color: black;
+    color: white;
+    }
+    .buy{
+        background-color: rgb(153, 46, 252);
+        color: white;
+        border-radius: 9px;
+        border: none;
+    }
+    .del{
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .del a{
+        text-decoration: none;
+    
+    }
+    .x3{
+        padding-top: 18px;
+    }
+    .c{
+        color: rgb(12, 129, 12);
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .m{
+        font-weight: bold;
+    
+    }.x4 a{
+        padding-top: 0%;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+    .nn{
+        display: flex;
+        justify-content: space-between;
+    }
+    .last1{
+        border: solid 1px lightgray;
+        height: 60px;
+        border-radius: 9px;
+        font-size: small;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .last1 img{padding-left: 0%;}
+    
+    .container.two{
+        background-color: white;
+        height: 1830px;
+        margin-top :10px;
+        border-radius: 7px;
+        width: 75%;
+        
+        
+    }
+    .part1{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+    }
+    .prod{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .sem{
+        font-size: 18px;
+    }
+    .part2{
+        display: grid;
+        grid-template-columns: 30% 20% 20% 30%;
+       
+    }
+    #U{
+        padding-left: 6%;
+        font-size: 15px;
+    }
+    .part3{
+      display: grid;
+      grid-template-columns: 30% 70%;  
+      margin-top: 35px;
+      margin-left: 20px;
+    }
+    .brand{
+        font-weight: bold;
+    }
+    .part4{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25% ;
+    }
+    .ex{   padding-left: 20px;}
+    .grid2{
+        border: solid 1px lightgray;
+        height: 597px;
+     
+    
+    }
+    .add{
+        width: 250px;
+        height: 40px;
+        border-radius: 9px;
+        margin-top: 30px;
+        border: solid 1px rgb(94, 178, 20);;
+        color: green;
+        font-weight: bold;
+     background-color: white;
+    }
+    .add:hover{
+        background-color: rgb(94, 178, 20);
+        color: white;
+    }.exx{
+        height: 236px;
+    }
+    .imgr{
+        width: 30%;
+        
+    }.zero{
+        background-color: rgb(252, 229, 229);
+    }
+    #boot{
+        margin-left: 40%;
+        width: 300px;
+    }
+    .container.three{
+        background-color: white;
+        height: 500px;
+        margin-top :10px;
+        border-radius: 7px;
+        width: 75%;
+        
+        
+    }
+    .part31{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    
+    }
+    .t{padding-top: 20px;}
+    .grid11{
+        border-right: solid 1px rgb(184, 182, 182);
+        padding-left: 15px;
+    }
+    #hh{
+        width: 150px;
+    }
+    #non{
+        border:none;
+        width: 105%;
+    }
+    .yy{
+        color: red;
+    }
+    #r{
+        width: 110px;
+    }
+    #h{
+        width: 170px;
+    }
+    .add{
+        width: 90%;
+    }
+    #t{width: 58%;}
+    #esr{height: 120px;} </style>
+</head>
+<body>
+    <header style="background-color: black;color: white;">
+        <div style="margin-left: 150px;margin-right: 150px;"
+        class="d-flex justify-content-between p-2">
+        <div>
+            <span class="me-3"><a href="#" style="text-decoration: none;color: white;">عربي</a></span>
+
+            <span class="me-3" style="color: gray;">my delivery area</span>
+            <span class="me-3">Cairo</span>
+
+        </div>
+<div class="d-flex justify-content-between">
+    <span class="me-4"><a href="#" style="text-decoration: none;color: white;">sell on B.TECH</a></span> 
+    <span class="me-4"><a href="#" style="text-decoration: none;color: white;">Blog</a></span>
+    <a href="#" style="text-decoration: none;color: white;">
+        <div><span><i class="fa-solid fa-phone"></i></span>
+            <span>call 19966</span></div>
+    </a>
+    
+    
+</div>
+        </div>
+    </header>
+    <div class="bg-white" style="border-bottom: 1px solid rgb(220, 218, 218);">
+    <nav class="navbar navbar-expand-lg" style="margin-left: 150px;margin-right: 150px;padding: 20px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://media.btech.com/media/logo/stores/1/new3.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active text-danger" aria-current="page" href="#">
+                    <span class="font-weight-bold">Everyday Deals</span>
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex">
+            <form  role="search" style="width: 500px;">
+              <input style="height: 50px;" class="form-control me-2 bg-light"
+               type="search" placeholder="Search for products or brands " aria-label="Search"></form>
+               <div class="d-flex align-item-center mt-2">
+               <a href="#" class="linky ps-5"><i class="fa-regular fa-user"></i>
+            <span>my account</span></a>
+            <a href="#" class="linky ps-5"><i class="fa-solid fa-cart-shopping"></i>
+                <span>cart</span></a>
+            </div>
+    
+           
+              
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+</div>
+
+  
+<div class="container one">
+    <div class="left">
+<div class="sec2">
+<div class="small">
+    <div><a href="#"><img src="https://media.btech.com/media/catalog/product/cache/8e279240a6612e9579d3be696bac1c07/i/m/img_3668copy_1800x1800.jpg" ></a></div>
+    <div><a href="#"><img src="https://media.btech.com/media/catalog/product/cache/8e279240a6612e9579d3be696bac1c07/i/m/img_3668copy_1800x1800.jpg" ></a></div>
+    <div><a href="#"><img src="https://media.btech.com/media/catalog/product/cache/863ecc7f74a598124bfc2192c73de246/i/m/img_3673_1800x1800.jpg" ></a></div>
+    <div><a href="#"><img src="https://media.btech.com/media/catalog/product/cache/863ecc7f74a598124bfc2192c73de246/2/0/2022posts_720456fa-3eb2-4daa-a3fa-91774afdbe87_1800x1800.jpg" ></a></div>
+    <div><a href="#"><img src="https://media.btech.com/media/catalog/product/cache/863ecc7f74a598124bfc2192c73de246/o/n/onwatchheadphotos.008_1800x1800_1_1.jpg" ></a></div>
+
+</div>
+<div class="large"><img src="https://media.btech.com/media/catalog/product/cache/22b1bed05f04d71c4a848d770186c3c4/o/n/onwatchheadphotos.008_1800x1800_1_1.jpg"></div>
+
+</div>
+<div class="botom">
+    <div class="frist">
+        <img src="https://raw.githubusercontent.com/Manerva-zareef/B-TECH/product2_esraa/S.png">
+        <p>Pay on delivery</p>
+        <p class="op">Cash or card </p>
+    </div>
+    <div class="second"> <img src="https://raw.githubusercontent.com/Manerva-zareef/B-TECH/product2_esraa/e.png">
+    <p>Return for free</p>
+    <p class="op">Up to 30 days</p></div>
+   
+</div>
+     </div>
+     <div class="right" >
+<div class="x1"><a href=#><img src="https://raw.githubusercontent.com/Manerva-zareef/B-TECH/product2_esraa/rrr.png"></a> </div>
+<h5>On Watch Smart Watch, 46mm, Black - MA01-ARB</h5>
+<div class="x2">
+<div class="x21"><p>2,045 LE</p></div>
+<div class="x22"><p><b> Save 157 LE (8%)</p></b></div></div>
+<span class="price">1,888</span>
+<span class="sym">EL</span>
+<div class=""><button type="button" class="btn ptn1 btn-outline-secondary" >99 LE / mo with Minicash installments</button></div>
+
+
+
+<div ><button type="button" class=" ptn1 d btn-dark">Add in Cart </button></div>
+<div ><input class="buy ptn1" type="button" value="buy with minicash installments"></div>
+<div class="del"><span >Delivery to:</span>
+<span class="del"><a href="#">Cairo, Ain Shams - Mostafa Hafez</a></span>
+</div>
+<div class="x3">
+<span class="a"><img src="https://raw.githubusercontent.com/Manerva-zareef/B-TECH/product2_esraa/uvfdi.png"></span>
+<span class="b"> Doorstep delivery, as soon as</span>
+    <span class="c">Today, Thu, 8 September</span></div>
+    <hr>
+    <div class="x4">
+        <span class="aa"><img src="https://raw.githubusercontent.com/Manerva-zareef/B-TECH/product2_esraa/rtyui.png"></span>
+        <span class="c">  Free pickup today </span>
+            <span class="cc">from</span>
+        <span class="m">19 Stores</span><br>
+    <a href="#">Check in-store availability</a> </div>
+    <div class="last1">
+      <span class="sold">Sold by:</span>
+      <span class="tech m">  B.TECH</span>
+      <div><img src="https://raw.githubusercontent.com/Manerva-zareef/B-TECH/product2_esraa/pppppppppppp9-08%20182650.png" ></div>
+    </div>
+   
+     </div> 
+    
+</div>
+<div class="container two ">
+  <div class="part1">
+    <div class="prod"> Product overview</div>
+    <div class="sem"><button type="button" class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+      <span class="d-lg-none" aria-hidden="true">Bootstrap</span><span class="visually-hidden">Bootstrap&nbsp;</span>  <span class="visually-hidden">(switch to other versions)</span>
+    </button></div>
+  </div>
+  <hr>
+  <div class="part2">
+<div class="font1"><b>About product</b></div>
+<div class="font2"><b>Brand</b> <br>
+  on watch<br><br>
+  <b>Key Features</b>
+  <ul id="U">
+<li>Case: 46mm Solid<br> Aluminum</li>
+<li>Band: 22mm Silicone</li>
+<li>Display: IPS , 1.3 Inch HD</li>
+<li>Battery: Up To 3 Days<br> Depends On Usage</li>
+<li>Calls: Answer And Make<br> Calls On The Watch.</li>
+<li>Notifier: Get All<br> Notifications On The Watch.</li>
+<li>Health: Heart Rate Monitor, <br>Sleep Monitor, Blood <br>Pressure, Oxygen, Ecg</li>
+<li>Move: Pedometer, Multi-<br>Sports Programs</li>
+<li>Phone Anti-Lost, Phone<br> Camera Connected, Bt<br> Music</li>
+
+  </ul>
+
+</div>
+<div class="font3" ><b>Model</b><br>MA01-ARB<br><br>
+  <b>color</b><br>Black
+</div>
+<div class="font4" ><b>Type</b><br>Smart Watch</div>
+
+  </div>
+
+<hr>
+<div class="part1">
+  <div class="prod"> Specifications</div>
+  <div class="sem"><button type="button" class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+    <span class="d-lg-none" aria-hidden="true">Bootstrap</span><span class="visually-hidden">Bootstrap&nbsp;</span>  <span class="visually-hidden">(switch to other versions)</span>
+  </button></div>
+</div>
+<div class="part3">
+  <div >
+Brand<hr>
+Model<hr>Color<hr>Water Resistant<hr>RAM <hr>Compatible With Devices<hr>
+ </div>
+  <div class="brand">On Watch <hr>MA01-ARB <hr>Black<hr>Unidentified <hr>Unidentified<hr>	Android & iOS <hr></div>
+</div>
+<div class="part1">
+  <div class="prod">Compare with similar items</div>
+  <div class="sem"><button type="button" class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+    <span class="d-lg-none" aria-hidden="true">Bootstrap</span><span class="visually-hidden">Bootstrap&nbsp;</span>  <span class="visually-hidden">(switch to other versions)</span>
+  </button></div>
+</div>
+<div class="part4">
+<div class="grid1">
+
+<div class="exx"></div>
+<hr>
+<div><b>Brand <hr>Price <hr>Installment Plan <hr>0% Interest <hr>Model Name <hr>Color <hr></b></div>
+
+</div>
+<div class="grid2">
+<div class="ex"><div class="img1"><img id="esr" src="https://media.btech.com/media/catalog/product/o/n/onwatchheadphotos.008_1800x1800_1_1.jpg?imgeng=w_213,220"> </div>
+<div class="para"><b>this time </b> on watch smart watch ,46mm,black-MA01-ARB </div>
+<div ><input class="add"type="button" value="add to cart"></div></div>
+<hr><div class="zero">On watch <hr><b>1,888</b>LE <hr>Or from <b>99</b>LE <hr> <h5>X</h5><hr>MAO1-ARB <hr>black <hr></b></div>
+
+</div>
+<div class="grid2">
+  <div class="ex"><div class="img1"><img id="esr" src="https://media.btech.com/media/catalog/product/o/n/onwatchheadphotos.001_1800x1800.jpg?imgeng=w_213,220"> </div>
+<div class="para"><b>this time </b> on watch smart watch ,46mm,black-MA01-ARB</div>
+<div ><input class="add"type="button" value="add to cart"></div></div>
+<hr><div>on watch <hr>Price <hr>Installment Plan <hr>0% Interest <hr>Model Name <hr>Color <hr></b></div>
+</div>
+<div class="grid2">
+  <div class="ex"><div class="imgr"><img  id="esr" src="https://media.btech.com/media/catalog/product/x/i/xiaomi-redmi-watch-2-lite-black-1_v6ho9zsjzq74kfwz.jpg?imgeng=w_213,220"> </div>
+<div class="para"><b>this time </b>Xaomi Redmi watch 2 lite -black</div>
+<div ><input class="add"type="button" value="add to cart"></div></div>
+<hr>
+<div>Brand <hr>Price <hr>Installment Plan <hr>0% Interest <hr>Model Name <hr>Color <hr></b></div>
+</div>
+</div>
+ 
+<button id="boot" type="button" class="btn btn-outline-secondary">Show more specs</button>
+
+  </div>
+ <div class="container three">
+  <div class="m t"><h4>Similar products</h4></div>
+  <div class="part31">
+
+<div class="grid11">
+<div class="line1"><img id="hh" src="./last/_-black-45_.webp"> </div>
+<div class="line2 m">Xiaomi Mi Watch Lite, Black - BHR4357GL</div><br>
+<div class="line3 yy" > save 0 LE (0%)</div>
+<div class="line4"><span><h4>294 LE</h4></span></div>
+<div class="line5">or from 13 LE </div>
+<div class="line6"><input class="add add2"type="button" value="add to cart"></div>
+</div>
+
+<div class="grid11">
+  <div class="line1"><img id="r" src="./last/huawei-watch-gt-3-42mm-elegant-gd-milb19t_3.webp"> </div>
+  <div class="line2 m">Xiaomi Mi Watch Lite, Black - BHR4357GL</div><br>
+  <div class="line3 yy" > save 0 LE (0%)</div>
+  <div class="line4"><span><h4>294 LE</h4></span></div>
+  <div class="line5">or from 13 LE </div>
+  <div class="line6"><input class="add"type="button" value="add to cart"></div>
+  </div>
+  <div class="grid11">
+    <div class="line1"><img id="h" src="./last/image_nak376ehfxzdasul.webp"> </div>
+    <div class="line2 m">Xiaomi Mi Watch Lite, Black - BHR4357GL</div><br>
+    <div class="line3 yy" > save 0 LE (0%)</div>
+    <div class="line4"><span><h4>294 LE</h4></span></div>
+    <div class="line5">or from 13 LE </div>
+    <div class="line6"><input class="add"type="button" value="add to cart"></div>
+    </div>
+
+    <div class="grid11">
+      <div class="line1" ><img id="t"  src="./last/n40395830a_1_jcumoi2gk0kgxuwi.webp"> </div>
+      <div class="line2 m">Xiaomi Mi Watch Lite, Black - BHR4357GL</div><br>
+      <div class="line3 yy" > save 0 LE (0%)</div>
+      <div class="line4"><span><h4>294 LE</h4></span></div>
+      <div class="line5">or from 13 LE </div>
+      <div class="line6"><input class="add"type="button" value="add to cart"></div>
+      </div>
+
+      <div class="grid11">
+        <div class="line1"><img id="non" src="./last/Sbb.png"> </div>
+        <div class="line2 m">Xiaomi Mi Watch Lite, Black - BHR4357GL</div><br>
+        <div class="line3 yy" > save 0 LE (0%)</div>
+        <div class="line4"><span><h4>294 LE</h4></span></div>
+        <div class="line5">or from 13 LE </div>
+        <div class="line6"><input class="add"type="button" value="add to cart"></div>
+        </div>
+</div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/1b72b8e89a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+   
+</body>
+</html>
